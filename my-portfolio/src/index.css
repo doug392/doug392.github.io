@@ -1,13 +1,115 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+  box-sizing: border-box
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#topbar{
+  background-color:#607d8b ;
+  font-family: 'Playfair Display', serif;
+}
+#topbar button{
+  color: white
+}
+#topbar a{
+  color: white;
+  text-decoration: none
+}
+
+body{
+  /* background-color: rgb(132, 76, 206); */
+  background-color:#607d8b ;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding-top: 60px  
+}
+
+.bio{
+  display: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* text-align: center; */
+  /* background-color: rgb(98, 38, 175); */
+  background-color: #546e7a;
+  box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.2);
+  /* border: 2px outset rgb(107, 19, 189); */
+  /* border-radius: 5px; */
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding-left: 5px
+}
+
+.bio p {
+  padding-top:5px
+}
+
+
+.bio span{
+  display: flex;
+  width: 100%;
+  margin-left: 5px
+  
+}
+
+.bio h4 {
+  margin: 10px;
+  padding-left: 20px
+}
+
+.heading {
+  padding-left: 15px
+}
+
+.moods{
+  display: relative;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  /* background-color: rgb(98, 38, 175); */
+  background-color: #546e7a;
+  box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.2);
+  margin-right: 15px;
+  margin-left: 15px; 
+}
+
+.moods h3 {
+  margin-bottom: 0px
+}
+
+#images-container img{
+  max-height: 600px;
+  padding: 10px;
+  
+}
+
+#fccpics {
+  max-width: 500px; 
+}
+
+
+.links-container {
+  display: relative;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  /* background-color: rgb(98, 38, 175); */
+  background-color: #546e7a;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.2);
+  padding-bottom:5px;
+ 
+}
+
+.links-container a {
+  color: white;
+  margin: 20px;
+  display: relative;
+  justify-content: center;
+}
+
+.gallery {
+  max-height: 600px;
 }
