@@ -27,20 +27,20 @@ function App() {
       <h1 className="heading" id="projects">Projects</h1>
       <Project
       project_name="Moods App"
-      overview = "Working with an excellent team of both burgeoning and established developers, we're nearing the initial release of Moods App on Android/iOS stores. The impetus was our collective desire to aid others in understanding and bettering their mental health, but we've only been further emboldened by the events of this year as it has been particularly taxing on many of us. I created the majority of the views you'll see below using a combination of both custom and ionic components.. I've also written much of the logic with which the app can update and receive data from Firebase for to display/update a user's settings. My other contributions include a combination of Node.js and vanilla JavaScript within Vue lifecycle hooks across many of the views display and update swaths of the other data presented to the user."
+      overview = "Working with an excellent team of both burgeoning and established developers, we're nearing the initial release of Moods App on Android/iOS stores. The impetus was our collective desire to aid others in understanding and bettering their mental health, but we've only been further emboldened by the events of this year as it has been particularly taxing on many of us. It was built using Vue.js in conjunction with Ionic to develop it for Android/iOS devices.  I created the majority of the views you'll see below using a combination of both custom and ionic components.. I've also written much of the logic with which the app can update and receive data from Firebase to display/update a user's settings. My other contributions include a combination of Node.js/vanilla JavaScript within Vue lifecycle hooks to display and update swaths of other personal data and state within the Vuex store that are presented to the user throughout the app."
       attributes = {["Node.js","Vue.js", "Vuex", "Ionic","Vue Materials","Firebase"]}
       pic = {[Login,Home,Hamburger,Questions]}
       />
       <Project
       project_name="Chores Assignment"
-      overview = "App to assign chores at random each week to my roommates and myself, each week with a simple click of the button on the Home view. An initial chores array is built into the logic, but the Chores List view allows you to dynamically add any additional chores needed. The UI was built using Material Design components and I used JavaScript in conjunction with Vue Router for navigation."
+      overview = "App to streamline the assignment chores at random each week to my roommates and myself, with a simple click of the button on the Home view. An initial chores array is built into the logic, but the Chores List view allows you to dynamically add any additional chores needed. The UI was built using Material Design components and I used JavaScript in conjunction with Vue Router for navigation."
       attributes = {["Vue.js","Material Design"]}
       pic={[ChoresHome, ChoresList, ChoresNav]}
       />
       <Project
       project_name="PokeAPI"
-      overview = "Simple app communicating with a pre-existing API, allowing the user to type in Pokemon name to display the corresponding sprite, moves, and abilities as a simple table." 
-      attributes = {["Vue.js","Vuex"]}
+      overview = "Simple app communicating with a pre-existing RESTful API containing data for each individual Pokemon. This was my first experience in communicating with a RESTful API, ultimately using an asynchronous GET request and the Vuex store to commit the data. This project allows the user to type in a Pokemon name to display the corresponding sprite, moves, and abilities as a simple table. Based upon the type of the Pokemon, the background color of the image and font color will dynamically change to match it. The app is comprised of a mixture of material design and custom elements." 
+      attributes = {["https://pokeapi.co/","Vue.js","Vuex"]}
       pic={[]}
       />
       <Project

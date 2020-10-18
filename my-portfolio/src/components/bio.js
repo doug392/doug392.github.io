@@ -19,8 +19,8 @@ const Bio = () => {
 
 
   return (
-    <div className='bio' id="about">
-      <p>I'm an aspiring web developer with a current focus on JavaScript, along with Vue.js and now React.js. Besides creating smaller projects to hone my skillset further, I've spent the last year developing Moods App with a few others. Our aim is to create an app that aids users in tracking their mental health to better understand and improve their lives. You can see more below, along with a few of my other projects. Thank you for taking the time to look at my portfolio. </p>
+    <div className='bio'>
+      <p>I'm an aspiring web developer with a current focus on JavaScript, along with both the Vue.js and more recently React.js frameworks. Besides creating smaller projects to hone my skills further, I've accrued just over a year of work experience this past year developing Moods App with a few others. More of each project can be seen directly below. Thank you for taking the time to look at my portfolio, it is very much appreciated. </p>
       <br />
       <h2>Primary Skills</h2>
       <span>
